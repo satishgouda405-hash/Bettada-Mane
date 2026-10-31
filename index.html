@@ -1,0 +1,931 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Bettada Mane Home Stay</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Bettada Mane Home Stay is a tiled-roof homestay on SH-107 between Mudigere and Sakleshpura in the Western Ghats. Large clean rooms, verandah meals and bonfire evenings. Open 24 hours. Enquire on WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bettada Mane Home Stay | Mudigere, Western Ghats">
+<meta property="og:description" content="Large clean rooms, verandah meals and bonfire evenings on SH-107 near Mudigere. Open 24 hours.">
+<meta property="og:image" content="images/facade.webp">
+<meta name="theme-color" content="#0c1712">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..800;1,6..96,400..800&family=Instrument+Sans:wght@400..700&family=Noto+Serif+Kannada:wght@500..900&family=Spline+Sans+Mono:wght@400;500&display=swap">
+<style>
+/* Layout concept: a night-forest page that reads like walking the verandah. The Kannada name is cut from the house photo, images are trimmed to the gable of the roof, and the red-and-white zigzag from the painted door frames divides every section. */
+:root{
+  --night:#0c1712; --night-2:#132419; --moss:#1d3a2b;
+  --ochre:#f6ae1b; --ochre-ink:#1c1308;
+  --bone:#f4ead6; --muted:#b7ad95;
+  --laterite:#c24a2b;
+  --paper:#f1e6cd; --paper-ink:#22180e; --paper-muted:#5b4b37;
+  --line:rgba(244,234,214,.16); --line-ink:rgba(34,24,14,.22);
+  --f-disp:'Bodoni Moda','Didot','Times New Roman',serif;
+  --f-kn:'Noto Serif Kannada','Tunga','Nirmala UI',serif;
+  --f-body:'Instrument Sans','Segoe UI',system-ui,sans-serif;
+  --f-mono:'Spline Sans Mono',ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--night);color:var(--bone);font:400 16px/1.6 var(--f-body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--night);z-index:60}
+img{display:block;height:auto;max-width:100%}
+a{color:inherit}
+h1,h2,h3,h4,p,ul,ol,dl,dd,figure{margin:0}
+ul,ol{padding:0;list-style:none}
+:focus-visible{outline:2px solid var(--ochre);outline-offset:3px}
+.wrap{max-width:1280px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font:500 12px/1.4 var(--f-mono);letter-spacing:.18em;text-transform:uppercase;color:var(--ochre)}
+.paper .eyebrow{color:var(--laterite)}
+.lede{max-width:58ch;color:var(--muted);font-size:clamp(16px,1.5vw,19px)}
+.paper .lede{color:var(--paper-muted)}
+.zig{height:14px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='14' viewBox='0 0 24 14'%3E%3Crect width='24' height='14' fill='%23f4ead6'/%3E%3Cpath d='M0 14 L6 2 L12 14 L18 2 L24 14' fill='none' stroke='%23c24a2b' stroke-width='3'/%3E%3C/svg%3E") repeat-x}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:.6em;font:600 15px/1 var(--f-body);letter-spacing:.02em;padding:1em 1.5em;border:1.5px solid var(--bone);border-radius:2px;background:transparent;color:var(--bone);text-decoration:none;cursor:pointer;transition:transform .18s,box-shadow .18s}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--laterite)}
+.btn-ochre{background:var(--ochre);border-color:var(--ochre);color:var(--ochre-ink)}
+.btn-dark{background:var(--night);border-color:var(--night);color:var(--bone)}
+.btn-dark:hover{box-shadow:4px 4px 0 var(--bone)}
+.btn.sm{padding:.8em 1.1em;font-size:14px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+
+/* header and menu */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(12,23,18,.9);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top-in{display:flex;align-items:center;gap:20px;min-height:64px}
+.brand{display:flex;flex-direction:column;text-decoration:none;line-height:1.1;margin-right:auto}
+.brand-kn{font:800 22px/1.2 var(--f-kn);color:var(--ochre)}
+.brand-en{font:500 10px/1 var(--f-mono);letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.nav{display:none;gap:22px}
+.nav a{font-size:14px;text-decoration:none;color:var(--muted);padding:6px 0;border-bottom:2px solid transparent}
+.nav a:hover,.nav a[aria-current="page"]{color:var(--bone);border-color:var(--ochre)}
+.burger{font:500 12px var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:none;color:var(--bone);border:1px solid var(--line);padding:10px 14px;cursor:pointer}
+.top .btn{display:none}
+@media(min-width:1040px){.nav{display:flex}.burger{display:none}.top .btn{display:inline-flex}.top-in{gap:32px}}
+.menu{position:fixed;inset:0;z-index:45;background:var(--night);overflow:auto;padding:calc(84px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(32px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.menu a{display:block;font:italic 500 clamp(38px,11vw,72px)/1.1 var(--f-disp);text-decoration:none;padding:.08em 0;border-bottom:1px solid var(--line)}
+.menu a:hover{color:var(--ochre)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;padding-block:clamp(32px,6vw,88px) clamp(48px,7vw,96px)}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(520px circle at var(--mx,72%) var(--my,28%),rgba(246,174,27,.17),transparent 62%);pointer-events:none}
+.mist{position:absolute;inset:-20% -10%;background:radial-gradient(40% 30% at 18% 72%,rgba(244,234,214,.08),transparent 70%),radial-gradient(35% 28% at 82% 28%,rgba(244,234,214,.06),transparent 70%);animation:drift 30s ease-in-out infinite alternate;pointer-events:none}
+@keyframes drift{to{transform:translate3d(6%,-3%,0)}}
+.hero-grid{position:relative;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(28px,5vw,72px);align-items:center}
+@media(max-width:860px){.hero-grid{grid-template-columns:minmax(0,1fr)}}
+.hero h1{margin:14px 0 0}
+.kn{display:inline-block;font:900 clamp(72px,11.5vw,168px)/1.12 var(--f-kn);color:var(--ochre);padding-bottom:.06em;animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+@supports ((-webkit-background-clip:text) or (background-clip:text)){
+  .kn{background:url(images/facade.webp) center 55%/cover;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-stroke:2px var(--ochre)}
+}
+@keyframes rise{from{transform:translateY(14px)}to{transform:none}}
+.en{display:block;font:italic 500 clamp(22px,3.4vw,40px)/1.2 var(--f-disp);margin-top:.35em}
+.hero-copy{max-width:46ch;margin-top:22px;font-size:clamp(17px,1.7vw,20px);color:var(--bone)}
+.hero .btns{margin-top:28px}
+.stats{display:flex;flex-wrap:wrap;gap:12px 36px;margin-top:36px;padding-top:20px;border-top:1px solid var(--line)}
+.stats div{display:flex;flex-direction:column;gap:2px}
+.stats b{font:500 28px/1 var(--f-disp);color:var(--ochre)}
+.stats span{font:400 12px/1.3 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.hero-art{position:relative;justify-self:center;width:min(100%,460px)}
+.gable{clip-path:polygon(0 15%,50% 0,100% 15%,100% 100%,0 100%);aspect-ratio:3/4;object-fit:cover;width:100%}
+.hero-art .gable{object-position:50% 22%;transform:translate3d(calc(var(--px,0)*10px),calc(var(--py,0)*10px),0);transition:transform .25s ease-out}
+.badge{position:absolute;left:-6%;bottom:5%;width:132px;aspect-ratio:1;display:grid;place-items:center;background:var(--night);border-radius:50%;border:1px solid var(--line)}
+.badge svg{position:absolute;inset:0;width:100%;height:100%;animation:spin 26s linear infinite}
+.badge text{font:500 10.5px var(--f-mono);letter-spacing:.2em;fill:var(--bone)}
+.badge b{font:500 34px/1 var(--f-disp);color:var(--ochre)}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:860px){.badge{left:2%}}
+
+/* marquee */
+.marquee{overflow:hidden;border-block:1px solid var(--line);background:var(--night-2)}
+.marquee-track{display:flex;width:max-content;animation:mq 50s linear infinite}
+.marquee-track span{display:flex;align-items:center;gap:56px;padding:18px 28px;font:italic 500 clamp(26px,4vw,48px)/1 var(--f-disp);white-space:nowrap}
+.marquee-track span::after{content:"";width:10px;height:10px;background:var(--ochre);transform:rotate(45deg)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* sections */
+.sec{padding-block:clamp(56px,9vw,128px)}
+.paper{background:var(--paper);color:var(--paper-ink)}
+.alt{background:var(--night-2)}
+h2.big{font:500 clamp(36px,6.2vw,88px)/1 var(--f-disp);letter-spacing:-.02em;text-wrap:balance;margin:14px 0 .45em}
+h2.big em{font-style:italic;color:var(--ochre)}
+.paper h2.big em{color:var(--laterite)}
+.sec-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:20px 40px;margin-bottom:clamp(28px,4vw,56px)}
+.sec-head>div{min-width:0;max-width:760px}
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.8fr);gap:clamp(28px,6vw,88px);align-items:center}
+@media(max-width:860px){.split{grid-template-columns:minmax(0,1fr)}}
+.split .gable{max-width:440px;justify-self:center}
+.trio{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:32px;margin-top:clamp(36px,5vw,64px);padding-top:28px;border-top:1px solid var(--line-ink)}
+.trio h3{font:500 12px/1.4 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--laterite);margin-bottom:10px}
+.trio p{font-size:17px}
+
+/* rooms */
+.rooms{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:28px;align-items:start}
+@media(min-width:960px){.rooms.stagger>.room:nth-child(2){margin-top:56px}}
+.room{background:var(--night-2);border:1px solid var(--line);display:flex;flex-direction:column;min-width:0}
+.alt .room{background:var(--night)}
+.room .gable{aspect-ratio:4/4.3}
+.room-body{display:flex;flex-direction:column;gap:14px;padding:22px}
+.room h3{font:500 28px/1.1 var(--f-disp)}
+.room p{color:var(--muted);font-size:15px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;font:500 12px/1.4 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ochre)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips li,.chip{font:500 12px/1 var(--f-mono);border:1px solid var(--line);padding:7px 10px;color:var(--bone);background:none}
+button.chip{cursor:pointer}
+button.chip[aria-pressed="true"]{background:var(--ochre);border-color:var(--ochre);color:var(--ochre-ink)}
+.price{font:500 12px/1.3 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+
+/* experiences */
+.exp-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
+.t{position:relative;overflow:hidden;aspect-ratio:4/5;grid-column:span 2;background:var(--night-2)}
+.t:nth-child(-n+2){grid-column:span 3;aspect-ratio:6/5}
+.t img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s ease}
+.t:hover img{transform:scale(1.05)}
+.t::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(8,14,11,.92),rgba(8,14,11,0) 62%)}
+.t div{position:absolute;z-index:1;left:0;right:0;bottom:0;padding:22px}
+.t h3{font:italic 500 clamp(26px,3vw,38px)/1.05 var(--f-disp)}
+.t p{margin-top:8px;font-size:15px;color:var(--bone);max-width:36ch}
+@media(max-width:900px){.exp-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.t,.t:nth-child(-n+2){grid-column:span 1;aspect-ratio:4/5}.t:last-child{grid-column:1/-1;aspect-ratio:16/10}}
+@media(max-width:560px){.exp-grid{grid-template-columns:minmax(0,1fr)}.t:last-child{grid-column:auto;aspect-ratio:4/5}}
+
+/* amenities */
+.amen{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.amen li{background:var(--night);padding:28px 24px;display:flex;flex-direction:column;gap:10px}
+.amen svg{width:34px;height:34px;fill:none;stroke:var(--ochre);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.amen h3{font:500 22px/1.15 var(--f-disp)}
+.amen p{font-size:14.5px;color:var(--muted)}
+
+/* mosaic */
+.mosaic{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:clamp(110px,16vw,220px);gap:10px;grid-auto-flow:dense}
+.mosaic a{position:relative;overflow:hidden;background:var(--night-2)}
+.mosaic img{width:100%;height:100%;object-fit:cover;transition:transform .8s ease}
+.mosaic a:hover img{transform:scale(1.06)}
+.mosaic .a{grid-area:span 2/span 2}.mosaic .c{grid-row:span 2}.mosaic .f{grid-column:span 2}
+@media(max-width:600px){.mosaic{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* guest words */
+.words{display:grid;margin-top:clamp(16px,3vw,40px)}
+.words li{font:500 clamp(34px,7.4vw,112px)/1.02 var(--f-disp);letter-spacing:-.02em;padding:.12em 0;border-top:1px solid var(--line);text-wrap:balance}
+.words li:last-child{border-bottom:1px solid var(--line)}
+.words li:nth-child(even){font-style:italic;color:var(--ochre)}
+.rate{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.rate b{font:500 clamp(64px,10vw,120px)/1 var(--f-disp);color:var(--ochre)}
+.rate span{font:500 13px/1.4 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+
+/* location */
+.loc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center}
+@media(max-width:860px){.loc{grid-template-columns:minmax(0,1fr)}}
+.route{width:100%;height:auto;border:1px solid var(--line);background:var(--night-2)}
+.route .road{fill:none;stroke:var(--bone);stroke-width:3;stroke-linecap:round}
+.route .dash{fill:none;stroke:var(--muted);stroke-width:1.5;stroke-dasharray:4 5}
+.route text{font:500 13px var(--f-mono);fill:var(--bone);letter-spacing:.04em}
+.route .mute{fill:var(--muted)}
+.route .pin{fill:var(--ochre)}
+.route .pulse{fill:none;stroke:var(--ochre);stroke-width:2;animation:pulse 2.4s ease-out infinite;transform-origin:215px 154px}
+@keyframes pulse{from{transform:scale(1);opacity:.9}to{transform:scale(3);opacity:0}}
+.caption{font:400 12px/1.5 var(--f-mono);color:var(--muted);margin-top:10px}
+.facts{display:grid;gap:0;margin-top:24px}
+.facts div{display:grid;grid-template-columns:130px minmax(0,1fr);gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.facts dt{font:500 12px/1.6 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ochre)}
+.facts dd{min-width:0;overflow-wrap:anywhere}
+
+/* final CTA */
+.cta{background:var(--ochre);color:var(--ochre-ink)}
+.cta h2{font:500 clamp(44px,9vw,132px)/.95 var(--f-disp);letter-spacing:-.03em;text-wrap:balance}
+.cta h2 em{font-style:italic}
+.cta p{max-width:52ch;margin-top:18px;font-size:18px}
+.cta .btns{margin-top:30px}
+.cta .btn:not(.btn-dark){border-color:var(--ochre-ink);color:var(--ochre-ink)}
+.cta .btn:hover{box-shadow:4px 4px 0 var(--laterite)}
+
+/* platforms */
+.plat{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.plat .lab{font:500 12px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-right:6px}
+.plat a{font:600 14px/1 var(--f-body);text-decoration:none;border:1px solid var(--line);padding:11px 14px;transition:background .15s,border-color .15s}
+.plat a:hover{background:var(--bone);color:var(--night);border-color:var(--bone)}
+.cta .plat .lab{color:var(--ochre-ink)}
+.cta .plat a{border-color:rgba(28,19,8,.5)}
+.cta .plat a:hover{background:var(--ochre-ink);color:var(--ochre);border-color:var(--ochre-ink)}
+
+/* inner pages */
+.phead{padding-block:clamp(40px,7vw,96px) clamp(24px,4vw,48px)}
+.phead h1{font:500 clamp(44px,8.4vw,120px)/.98 var(--f-disp);letter-spacing:-.02em;text-wrap:balance;margin:14px 0 .3em}
+.phead h1 em{font-style:italic;color:var(--ochre)}
+.crumb{font:500 12px/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-decoration:none}
+.crumb:hover{color:var(--ochre)}
+.chapter{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(24px,5vw,72px);align-items:center;padding-block:clamp(28px,4vw,56px);border-top:1px solid var(--line)}
+.chapter:nth-child(even) .chapter-img{order:2}
+.chapter-img{aspect-ratio:5/4;overflow:hidden}
+.chapter-img img{width:100%;height:100%;object-fit:cover}
+.chapter h2{font:italic 500 clamp(32px,4.6vw,60px)/1.02 var(--f-disp);margin-bottom:14px}
+.chapter p{color:var(--muted);max-width:48ch;font-size:17px}
+@media(max-width:860px){.chapter{grid-template-columns:minmax(0,1fr)}.chapter:nth-child(even) .chapter-img{order:0}}
+.gallery{columns:3 260px;column-gap:12px}
+.gi{display:block;width:100%;margin:0 0 12px;padding:0;border:0;background:var(--night-2);cursor:zoom-in;break-inside:avoid;overflow:hidden}
+.gi img{width:100%;transition:transform .8s ease}
+.gi:hover img{transform:scale(1.04)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.prose{max-width:66ch}
+.prose h2{font:500 clamp(28px,3.4vw,42px)/1.1 var(--f-disp);margin:1.6em 0 .5em}
+.prose p{color:var(--muted);margin-bottom:1em;font-size:17px}
+.prose p strong{color:var(--bone)}
+.faq{max-width:820px}
+.faq details{border-top:1px solid var(--line);padding:18px 0}
+.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;font:500 clamp(20px,2.4vw,26px)/1.25 var(--f-disp);list-style:none;display:flex;justify-content:space-between;gap:20px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:400 28px/1 var(--f-body);color:var(--ochre)}
+.faq details[open] summary::after{content:"\2212"}
+.faq p{margin-top:12px;color:var(--muted);max-width:60ch}
+.room-gal{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:repeat(2,minmax(0,1fr));gap:10px;aspect-ratio:16/8}
+.room-gal img{width:100%;height:100%;object-fit:cover}
+.room-gal img:first-child{grid-row:span 2}
+@media(max-width:700px){.room-gal{aspect-ratio:auto;grid-template-columns:minmax(0,1fr);grid-template-rows:none}.room-gal img{aspect-ratio:16/10}.room-gal img:first-child{grid-row:auto}}
+.room-cols{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:clamp(28px,5vw,72px);margin-top:clamp(28px,4vw,56px)}
+@media(max-width:860px){.room-cols{grid-template-columns:minmax(0,1fr)}}
+.ticks li{padding:10px 0 10px 28px;border-top:1px solid var(--line);position:relative}
+.ticks li::before{content:"";position:absolute;left:4px;top:1.15em;width:8px;height:8px;background:var(--ochre);transform:rotate(45deg)}
+.ticks li:last-child{border-bottom:1px solid var(--line)}
+.side{border:1px solid var(--line);padding:24px;background:var(--night-2);align-self:start;display:flex;flex-direction:column;gap:16px}
+.side h2{font:500 26px/1.1 var(--f-disp)}
+
+/* form */
+.enq{display:grid;gap:18px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:18px}
+.enq label{display:flex;flex-direction:column;gap:6px;font:500 12px/1.3 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.enq input,.enq select,.enq textarea{font:400 16px/1.4 var(--f-body);color:var(--bone);background:var(--night-2);border:1px solid var(--line);border-bottom:2px solid var(--ochre);border-radius:0;padding:13px 12px;width:100%;min-width:0;text-transform:none;letter-spacing:0}
+.enq textarea{min-height:110px;resize:vertical}
+.err{color:#ff9a7a;font:400 14px var(--f-body);min-height:1.2em}
+.done{border:1px solid var(--ochre);padding:22px;display:grid;gap:14px;background:var(--night-2)}
+.done h3{font:italic 500 28px/1.1 var(--f-disp);color:var(--ochre)}
+.done pre{white-space:pre-wrap;font:400 14px/1.5 var(--f-mono);color:var(--muted);margin:0;overflow-wrap:anywhere}
+.ph-list li{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding:12px 0;border-top:1px solid var(--line)}
+.ph-list li:last-child{border-bottom:1px solid var(--line)}
+.ph-list b{font:500 22px/1 var(--f-mono);letter-spacing:.04em}
+.ph-list small{font:400 12px var(--f-mono);color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.mini{font:500 12px/1 var(--f-mono);letter-spacing:.08em;background:none;color:var(--bone);border:1px solid var(--line);padding:8px 10px;cursor:pointer;text-decoration:none}
+.mini:hover{border-color:var(--ochre);color:var(--ochre)}
+.contact-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(28px,5vw,72px)}
+@media(max-width:860px){.contact-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* footer */
+.gravel{background:linear-gradient(rgba(12,23,18,.82),rgba(12,23,18,.94)),url(images/gravel.webp) center/cover}
+.foot{padding-block:clamp(48px,7vw,88px) calc(40px + 70px)}
+.foot-in{display:grid;grid-template-columns:minmax(0,1.2fr) repeat(auto-fit,minmax(min(100%,170px),1fr));gap:36px}
+.foot h4{font:500 12px/1.4 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--ochre);margin-bottom:12px}
+.foot li{margin-bottom:8px}
+.foot a{text-decoration:none;color:var(--muted)}
+.foot a:hover{color:var(--bone)}
+.foot-brand img{width:110px;border:1px solid var(--line);margin-bottom:16px}
+.foot-brand p{color:var(--muted);font-size:15px;max-width:34ch}
+.legal{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font:400 12px/1.5 var(--f-mono);color:var(--muted)}
+
+/* whatsapp button */
+.fab{position:fixed;z-index:48;right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.fab-btn{display:flex;align-items:center;gap:10px;background:#25d366;color:#07210f;font:700 15px/1 var(--f-body);border:0;border-radius:999px;padding:14px 18px;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.45)}
+.fab-btn svg{width:22px;height:22px;fill:currentColor}
+.fab-panel{width:min(300px,calc(100vw - 32px));background:var(--night-2);border:1px solid var(--line);padding:16px;display:grid;gap:8px;box-shadow:0 12px 32px rgba(0,0,0,.5)}
+.fab-panel p{font:500 12px/1.4 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.fab-panel a{text-decoration:none;border:1px solid var(--line);padding:12px;font-size:15px}
+.fab-panel a:hover{border-color:#25d366;color:#25d366}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:80;background:rgba(6,10,8,.95);display:grid;place-items:center;padding:calc(56px + env(safe-area-inset-top,0px)) 16px calc(56px + env(safe-area-inset-bottom,0px))}
+.lb img{max-height:100%;max-width:100%;object-fit:contain}
+.lb button{position:absolute;background:none;border:1px solid var(--line);color:var(--bone);font:500 13px var(--f-mono);padding:10px 14px;cursor:pointer}
+.lb .x{top:calc(12px + env(safe-area-inset-top,0px));right:16px}
+.lb .p{left:16px;top:50%}.lb .n{right:16px;top:50%}
+.lb p{position:absolute;bottom:calc(16px + env(safe-area-inset-bottom,0px));left:16px;right:16px;text-align:center;font-size:14px;color:var(--muted)}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .mist,.marquee-track,.badge svg,.route .pulse,.kn{animation:none}
+  .t img,.mosaic img,.gi img,.btn,.hero-art .gable{transition:none}
+}
+</style>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#home" aria-label="Bettada Mane Home Stay, home"><span class="brand-kn" lang="kn">ಬೆಟ್ಟದ ಮನೆ</span><span class="brand-en">Home Stay</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#stay">Stay</a><a href="#experiences">Experiences</a><a href="#gallery">Gallery</a><a href="#dining">Dining</a><a href="#location">Location</a><a href="#reviews">Reviews</a><a href="#about">About</a>
+    </nav>
+    <a class="btn btn-ochre sm" href="#contact" data-track="cta_header_enquire">Enquire</a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu">Menu</button>
+  </div>
+</header>
+<nav class="menu" id="menu" aria-label="Menu" hidden>
+  <a href="#home">Home</a><a href="#stay">Stay</a><a href="#experiences">Experiences</a><a href="#gallery">Gallery</a><a href="#dining">Dining</a><a href="#location">Location</a><a href="#reviews">Reviews</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#policies">Policies</a><a href="#contact">Contact</a>
+</nav>
+
+<main id="app">
+
+<!-- HOME -->
+<section class="page" data-page="home">
+  <div class="hero">
+    <div class="mist" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Mudigere &middot; Western Ghats &middot; Karnataka</p>
+        <h1><span class="kn" lang="kn">ಬೆಟ್ಟದ<br>ಮನೆ</span><span class="en">Bettada Mane Home Stay</span></h1>
+        <p class="hero-copy">A tiled-roof house on the Mudigere to Sakleshpura road, with the forest at the gate and a bonfire after dark.</p>
+        <div class="btns">
+          <a class="btn btn-ochre" href="#contact" data-track="cta_hero_enquire">Enquire now</a>
+          <a class="btn" data-wa="Hi Bettada Mane Home Stay, I would like to check availability. Dates: ___  Guests: ___" data-track="whatsapp_click" data-where="hero" href="#contact" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+        <div class="stats">
+          <div><b>4.6/5</b><span>Google rating</span></div>
+          <div><b>24 hrs</b><span>Open every day</span></div>
+          <div><b>SH-107</b><span>Mudigere to Sakleshpura</span></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img class="gable" src="images/facade-tall.webp" width="1080" height="1632" alt="Bettada Mane Home Stay front view with ochre walls, white lace woodwork on the gable, terracotta tiled roof and a trimmed lawn" fetchpriority="high">
+        <div class="badge" aria-hidden="true">
+          <svg viewBox="0 0 132 132"><defs><path id="bc" d="M66 66 m-50 0 a50 50 0 1 1 100 0 a50 50 0 1 1 -100 0"/></defs><text><textPath href="#bc">OPEN 24 HOURS &#8226; 4.6 ON GOOGLE &#8226; WESTERN GHATS &#8226;</textPath></text></svg>
+          <b>4.6</b>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Mist</span><span>Tiled roof</span><span>Bonfire nights</span><span>Verandah meals</span><span>Western Ghats</span><span>Open 24 hours</span><span>Large rooms</span>
+      <span>Mist</span><span>Tiled roof</span><span>Bonfire nights</span><span>Verandah meals</span><span>Western Ghats</span><span>Open 24 hours</span><span>Large rooms</span>
+    </div>
+  </div>
+
+  <div class="sec paper">
+    <div class="wrap">
+      <div class="split">
+        <div>
+          <p class="eyebrow">The house</p>
+          <h2 class="big">Large rooms, clean beds and a <em>verandah</em> that runs the length of the house.</h2>
+          <p class="lede">Bettada Mane is Kannada for the house on the hill. It is a homestay near Mudigere in Chikkamagaluru district, set back from SH-107 behind a lawn and a line of trees.</p>
+          <div class="btns" style="margin-top:26px"><a class="btn btn-dark" href="#about">Read our story</a></div>
+        </div>
+        <img class="gable" src="images/verandah.webp" width="1080" height="1620" loading="lazy" decoding="async" alt="Covered verandah dining space with yellow walls, a red oxide floor and a view into the trees">
+      </div>
+      <div class="trio">
+        <div><h3>What it is</h3><p>A traditional tiled-roof homestay with ochre walls, painted door frames and rooms that open onto a long verandah.</p></div>
+        <div><h3>Who it is for</h3><p>Families, friends travelling together and anyone who wants a quiet weekend in the Western Ghats. There is room for a tempo traveller to pull in.</p></div>
+        <div><h3>What makes it special</h3><p>Guests keep mentioning the large rooms, the cleanliness and the friendly welcome. We built the stay around those three things.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="zig" aria-hidden="true"></div>
+
+  <div class="sec">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="eyebrow">Accommodation</p><h2 class="big">Pick a <em>room</em></h2></div><a class="btn" href="#stay">See all rooms</a></div>
+      <div class="rooms stagger" id="home-rooms"></div>
+    </div>
+  </div>
+
+  <div class="sec alt">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="eyebrow">Experiences</p><h2 class="big">Evenings are the <em>main event</em></h2><p class="lede">Fire, food and fog. These are the things guests do here.</p></div><a class="btn" href="#experiences">All experiences</a></div>
+      <div class="exp-grid" id="home-exp"></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="wrap">
+      <p class="eyebrow">Amenities</p>
+      <h2 class="big">Everything on <em>site</em></h2>
+      <ul class="amen" id="amen"></ul>
+    </div>
+  </div>
+
+  <div class="sec alt">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="eyebrow">Gallery</p><h2 class="big">See the <em>house</em></h2></div><a class="btn" href="#gallery">Open the gallery</a></div>
+      <div class="mosaic" id="mosaic"></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="wrap">
+      <div class="split">
+        <div>
+          <p class="eyebrow">Food</p>
+          <h2 class="big">Long tables on the <em>verandah</em></h2>
+          <p class="lede">Meals are served under the tiled roof with the trees right at the edge of the floor. Tell us your group size and food preferences when you enquire and we will confirm the menu and timing.</p>
+          <div class="btns" style="margin-top:26px"><a class="btn btn-ochre" href="#dining">Dining details</a></div>
+        </div>
+        <img src="images/dining-group.webp" width="1080" height="501" loading="lazy" decoding="async" alt="A group of guests sharing a meal at a long white table on the verandah">
+      </div>
+    </div>
+  </div>
+
+  <div class="sec alt">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="eyebrow">Guest reviews</p><h2 class="big">What guests <em>keep saying</em></h2></div>
+        <div class="rate"><b>4.6</b><span>out of 5 on Google</span></div></div>
+      <ul class="words"><li>Large rooms</li><li>Cleanliness</li><li>A friendly and welcoming atmosphere</li><li>A comfortable stay</li></ul>
+      <div class="btns" style="margin-top:32px"><a class="btn" href="#reviews">More on reviews</a></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="wrap loc">
+      <div>
+        <p class="eyebrow">Location</p>
+        <h2 class="big">On SH-107, <em>look for yellow</em></h2>
+        <p class="lede">Drive the Mudigere to Sakleshpura road and watch for the yellow Bettada Mane signboard. Ask anyone for Jannapura Circle if you lose signal.</p>
+        <div class="btns" style="margin-top:26px"><a class="btn btn-ochre" href="#location">Directions</a><a class="btn" data-maps target="_blank" rel="noopener" href="#location">Open in Google Maps</a></div>
+      </div>
+      <div data-route></div>
+    </div>
+  </div>
+
+  <div class="sec cta">
+    <div class="wrap">
+      <p class="eyebrow" style="color:var(--ochre-ink)">Open 24 hours</p>
+      <h2>Check <em>availability</em></h2>
+      <p>Send your dates and the number of guests. We reply on WhatsApp with room options and rates.</p>
+      <div class="btns">
+        <a class="btn btn-dark" href="#contact" data-track="cta_final_enquire">Enquire now</a>
+        <a class="btn" data-wa="Hi Bettada Mane Home Stay, I would like to check availability. Dates: ___  Guests: ___" data-track="whatsapp_click" data-where="final" href="#contact" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+      <div class="plat" style="margin-top:34px" data-platforms></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="page" data-page="about" hidden>
+  <div class="phead gravel"><div class="wrap">
+    <p class="eyebrow">About</p>
+    <h1>The house on <em>the hill</em></h1>
+    <p class="lede">A family-run homestay in the Western Ghats, near Mudigere.</p>
+  </div></div>
+  <div class="zig" aria-hidden="true"></div>
+  <div class="sec"><div class="wrap split">
+    <div class="prose">
+      <h2 style="margin-top:0">Where the name comes from</h2>
+      <p>Bettada Mane is Kannada for the house on the hill. The house sits off SH-107 between Mudigere and Sakleshpura, behind a lawn edged with purple foliage, with tall trees on every side.</p>
+      <h2>How we host</h2>
+      <p><strong>Rooms are large and kept clean.</strong> Those are the two things guests mention most often in their reviews, so we protect them first.</p>
+      <p><strong>The welcome is friendly.</strong> You are staying in a home. We are open 24 hours, so a late arrival is never a problem.</p>
+      <p><strong>Evenings are shared.</strong> Meals on the verandah and a bonfire in the trees bring groups together.</p>
+      <div class="btns" style="margin-top:28px"><a class="btn btn-ochre" href="#stay">See the rooms</a><a class="btn" href="#contact">Enquire</a></div>
+    </div>
+    <img src="images/logo.webp" width="1080" height="1069" loading="lazy" decoding="async" alt="Bettada Mane Home Stay logo: an illustrated tiled-roof house in front of dark trees on a yellow sky">
+  </div></div>
+  <div class="sec alt"><div class="wrap"><div class="exp-grid" id="about-exp"></div></div></div>
+</section>
+
+<!-- STAY -->
+<section class="page" data-page="stay" hidden>
+  <div class="phead"><div class="wrap">
+    <p class="eyebrow">Accommodation</p>
+    <h1>Rooms at <em>Bettada Mane</em></h1>
+    <p class="lede">Large rooms that open onto the verandah. Rates depend on dates and group size, so message us for a quote.</p>
+  </div></div>
+  <div class="zig" aria-hidden="true"></div>
+  <div class="sec"><div class="wrap">
+    <div class="rooms stagger" id="stay-rooms"></div>
+    <div class="plat" style="margin-top:56px" data-platforms></div>
+  </div></div>
+</section>
+
+<!-- ROOM -->
+<section class="page" data-page="room" hidden>
+  <div class="phead"><div class="wrap" id="room-head"></div></div>
+  <div class="zig" aria-hidden="true"></div>
+  <div class="sec"><div class="wrap" id="room-body"></div></div>
+</section>
+
+<!-- EXPERIENCES -->
+<section class="page" data-page="experiences" hidden>
+  <div class="phead"><div class="wrap">
+    <p class="eyebrow">Experiences</p>
+    <h1>Fire, food and <em>fog</em></h1>
+    <p class="lede">What guests do at Bettada Mane. Ask us to plan any of it around your dates.</p>
+  </div></div>
+  <div class="zig" aria-hidden="true"></div>
+  <div class="sec"><div class="wrap" id="exp-list"></div></div>
+</section>
+
+<!-- GALLERY -->
+<section class="page" data-page="gallery" hidden>
+  <div class="phead"><div class="wrap">
+    <p class="eyebrow">Gallery</p>
+    <h1>Day, dusk and <em>fire</em></h1>
+  </div></div>
+  <div class="zig" aria-hidden="true"></div>
+  <div class="sec"><div class="wrap">
+    <div class="filters" id="filters" role="group" aria-label="Filter photos"></div>
+    <div class="gallery" id="gal"></div>
+  </div></div>
+</section>
+
+<!-- DINING -->
+<section class="page" data-page="dining" hidden>
+  <div class="phead"><div class="wrap">
+    <p class="eyebrow">Dining</p>
+    <h1>Eat on the <em>verandah</em></h1>
+    <p class="lede">Meals are served at long tables under the tiled roof, open to the trees.</p>
+  </div></div>
+  <div class="zig" aria-hidden="true"></div>
+  <div class="sec"><div class="wrap">
+    <div class="split">
+      <div class="prose">
+        <h2 style="margin-top:0">How meals work</h2>
+        <p>Tell us your group size, dates and any food preferences when you enquire. We confirm the menu and meal timings on WhatsApp before you arrive.</p>
+        <p>The verandah seats a full group at a long table, so everyone eats together. Bonfire evenings can be planned around dinner.</p>
+        <div class="btns" style="margin-top:24px"><a class="btn btn-ochre" data-wa="Hi Bettada Mane Home Stay, I would like to know about meals. Guests: ___  Food preference: ___" data-track="whatsapp_click" data-where="dining" href="#contact" target="_blank" rel="noopener">Ask about meals</a></div>
+      </div>
+      <img class="gable" src="images/verandah.webp" width="1080" height="1620" loading="lazy" decoding="async" alt="Covered verandah dining hall with tables, yellow walls and a red floor">
+    </div>
+    <img src="images/dining-group.webp" width="1080" height="501" loading="lazy" decoding="async" alt="Guests sharing a meal at a long table on the verandah" style="margin-top:clamp(32px,5vw,64px);width:100%">
+  </div></div>
+</section>
+
+<!-- LOCATION -->
+<section class="page" data-page="location" hidden>
+  <div class="phead"><div class="wrap">
+    <p class="eyebrow">Location</p>
+    <h1>Find the <em>yellow signboard</em></h1>
+  </div></div>
+  <div class="zig" aria-hidden="true"></div>
+  <div class="sec"><div class="wrap loc">
+    <div>
+      <dl class="facts">
+        <div><dt>Address</dt><dd>Bettadamane, Mudigere to Sakaleshpura, SH107, Mudigere, Karnataka 577132</dd></div>
+        <div><dt>Landmark</dt><dd>Jannapura Circle</dd></div>
+        <div><dt>Hours</dt><dd>Open 24 hours, Monday to Sunday</dd></div>
+        <div><dt>Phone</dt><dd>096209 93045 (WhatsApp)</dd></div>
+      </dl>
+      <h2 style="font:500 28px/1.1 var(--f-disp);margin:32px 0 10px">Directions</h2>
+      <p class="lede">Take SH-107 between Mudigere and Sakleshpura. The roadside signboard is yellow with the Bettada Mane logo. If you are unsure, ask for Jannapura Circle or message us your live location on WhatsApp.</p>
+      <div class="btns" style="margin-top:24px"><a class="btn btn-ochre" data-maps target="_blank" rel="noopener" href="#location" data-track="maps_click">Open in Google Maps</a><a class="btn" data-wa="Hi Bettada Mane Home Stay, I am on my way. Could you guide me to the house?" data-track="whatsapp_click" data-where="location" href="#contact" target="_blank" rel="noopener">Ask for directions</a></div>
+    </div>
+    <div>
+      <div data-route></div>
+      <img src="images/road.webp" width="1080" height="789" loading="lazy" decoding="async" alt="Misty SH-107 road lined with tall trees and the yellow Bettada Mane signboard on the right" style="margin-top:14px">
+    </div>
+  </div></div>
+</section>
+
+<!-- REVIEWS -->
+<section class="page" data-page="reviews" hidden>
+  <div class="phead"><div class="wrap">
+    <p class="eyebrow">Guest reviews</p>
+    <h1>Rated <em>4.6</em> by guests</h1>
+    <p class="lede">These phrases come up again and again in guest reviews on Google Maps.</p>
+  </div></div>
+  <div class="zig" aria-hidden="true"></div>
+  <div class="sec"><div class="wrap">
+    <div class="rate"><b>4.6</b><span>out of 5 on Google</span></div>
+    <ul class="words"><li>Large rooms</li><li>Cleanliness</li><li>A friendly and welcoming atmosphere</li><li>A comfortable stay</li></ul>
+    <div class="btns" style="margin-top:36px"><a class="btn btn-ochre" data-maps target="_blank" rel="noopener" href="#reviews">Read reviews on Google</a><a class="btn" href="#contact">Plan your stay</a></div>
+  </div></div>
+</section>
+
+<!-- FAQ -->
+<section class="page" data-page="faq" hidden>
+  <div class="phead"><div class="wrap">
+    <p class="eyebrow">FAQ</p>
+    <h1>Before you <em>book</em></h1>
+  </div></div>
+  <div class="zig" aria-hidden="true"></div>
+  <div class="sec"><div class="wrap"><div class="faq" id="faq"></div>
+    <div class="btns" style="margin-top:36px"><a class="btn btn-ochre" href="#contact">Still have a question? Ask us</a></div>
+  </div></div>
+</section>
+
+<!-- CONTACT -->
+<section class="page" data-page="contact" hidden>
+  <div class="phead"><div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h1>Check <em>availability</em></h1>
+    <p class="lede">Fill this in and send it to us on WhatsApp. It is the fastest way to get a reply.</p>
+  </div></div>
+  <div class="zig" aria-hidden="true"></div>
+  <div class="sec"><div class="wrap contact-grid">
+    <div>
+      <p class="eyebrow">Call or message</p>
+      <ul class="ph-list" id="phones" style="margin-top:14px"></ul>
+      <dl class="facts" style="margin-top:28px">
+        <div><dt>Address</dt><dd>Bettadamane, Mudigere to Sakaleshpura, SH107, Mudigere, Karnataka 577132</dd></div>
+        <div><dt>Hours</dt><dd>Open 24 hours, Monday to Sunday</dd></div>
+      </dl>
+      <div class="btns" style="margin-top:22px"><a class="btn" data-maps target="_blank" rel="noopener" href="#contact" data-track="maps_click">Open in Google Maps</a></div>
+      <div class="plat" style="margin-top:34px" data-platforms></div>
+    </div>
+    <div>
+      <form class="enq" id="enq" novalidate>
+        <div class="grid2">
+          <label for="f-name">Your name<input id="f-name" autocomplete="name"></label>
+          <label for="f-phone">Phone number<input id="f-phone" type="tel" autocomplete="tel"></label>
+        </div>
+        <div class="grid2">
+          <label for="f-in">Check-in<input id="f-in" type="date"></label>
+          <label for="f-out">Check-out<input id="f-out" type="date"></label>
+        </div>
+        <div class="grid2">
+          <label for="f-guests">Guests<input id="f-guests" type="number" min="1" max="30" value="2"></label>
+          <label for="f-room">Room<select id="f-room"></select></label>
+        </div>
+        <label for="f-msg">Message<textarea id="f-msg"></textarea></label>
+        <p class="err" id="enq-err" role="alert"></p>
+        <button class="btn btn-ochre" type="submit" style="justify-self:start">Prepare my enquiry</button>
+      </form>
+      <div class="done" id="enq-done" hidden>
+        <h3>Your enquiry is ready</h3>
+        <pre id="enq-text"></pre>
+        <div class="btns"><a class="btn btn-ochre" id="enq-wa" href="#contact" target="_blank" rel="noopener" data-track="whatsapp_click" data-where="form">Send on WhatsApp</a><button class="btn" type="button" id="enq-copy">Copy text</button></div>
+      </div>
+    </div>
+  </div></div>
+</section>
+
+<!-- POLICIES -->
+<section class="page" data-page="policies" hidden>
+  <div class="phead"><div class="wrap">
+    <p class="eyebrow">Policies</p>
+    <h1>House <em>policies</em></h1>
+  </div></div>
+  <div class="zig" aria-hidden="true"></div>
+  <div class="sec"><div class="wrap"><div class="prose" id="policies"></div></div></div>
+</section>
+
+</main>
+
+<footer class="foot gravel">
+  <div class="wrap">
+    <div class="foot-in">
+      <div class="foot-brand">
+        <img src="images/logo.webp" width="1080" height="1069" loading="lazy" decoding="async" alt="Bettada Mane Home Stay logo">
+        <p>Near Mudigere, Chikkamagaluru district. Open 24 hours.</p>
+      </div>
+      <div><h4>Explore</h4><ul><li><a href="#stay">Stay</a></li><li><a href="#experiences">Experiences</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#dining">Dining</a></li></ul></div>
+      <div><h4>Plan</h4><ul><li><a href="#location">Location</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#faq">FAQ</a></li><li><a href="#policies">Policies</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="#contact">Enquiry form</a></li><li><a data-wa="Hi Bettada Mane Home Stay, I have a question." data-track="whatsapp_click" data-where="footer" href="#contact" target="_blank" rel="noopener">WhatsApp</a></li><li><a href="#about">About</a></li></ul></div>
+    </div>
+    <p class="legal">&copy; 2026 Bettada Mane Home Stay. Bettadamane, Mudigere to Sakaleshpura, SH107, Mudigere, Karnataka 577132.</p>
+  </div>
+</footer>
+
+<div class="fab" id="fab">
+  <div class="fab-panel" id="fab-panel" hidden>
+    <p>Ask on WhatsApp</p>
+    <a data-wa="Hi Bettada Mane Home Stay, I would like to check availability. Dates: ___  Guests: ___" data-track="whatsapp_click" data-where="fab_availability" href="#contact" target="_blank" rel="noopener">Check availability</a>
+    <a data-wa="Hi Bettada Mane Home Stay, could you share the room rates? Dates: ___  Guests: ___" data-track="whatsapp_click" data-where="fab_price" href="#contact" target="_blank" rel="noopener">Ask the price</a>
+    <a data-wa="Hi Bettada Mane Home Stay, I would like details about your rooms." data-track="whatsapp_click" data-where="fab_rooms" href="#contact" target="_blank" rel="noopener">Room information</a>
+    <a data-wa="Hi Bettada Mane Home Stay, I have a question about booking." data-track="whatsapp_click" data-where="fab_booking" href="#contact" target="_blank" rel="noopener">Booking questions</a>
+  </div>
+  <button class="fab-btn" id="fab-btn" aria-expanded="false" aria-controls="fab-panel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Z"/></svg>WhatsApp</button>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="x" id="lb-x">Close</button><button class="p" id="lb-p" aria-label="Previous photo">Prev</button><button class="n" id="lb-n" aria-label="Next photo">Next</button>
+  <img id="lb-img" alt=""><p id="lb-cap"></p>
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LodgingBusiness","name":"Bettada Mane Home Stay","description":"Tiled-roof homestay on SH-107 between Mudigere and Sakleshpura in the Western Ghats.","telephone":"+919620993045","address":{"@type":"PostalAddress","streetAddress":"Bettadamane, Mudigere to Sakaleshpura, SH107","addressLocality":"Mudigere","addressRegion":"Karnataka","postalCode":"577132","addressCountry":"IN"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"}}
+</script>
+
+<script>
+(function(){
+/* ---- Edit these ---- */
+var CFG={
+  wa:'919620993045',
+  phones:[{n:'096209 93045',tel:'+919620993045',note:'Primary, WhatsApp'},{n:'094485 55641',tel:'+919448555641',note:'Also on our signboard'},{n:'093537 37853',tel:'+919353737853',note:'Also on our signboard'}],
+  maps:'https://www.google.com/maps/search/?api=1&query=Bettada+Mane+Home+Stay+Mudigere+Karnataka',
+  /* SAMPLE links. Replace each url with the live listing once the homestay is on that platform. */
+  platforms:[{n:'Booking.com',u:'https://www.booking.com/'},{n:'Airbnb',u:'https://www.airbnb.co.in/'},{n:'MakeMyTrip',u:'https://www.makemytrip.com/'},{n:'Agoda',u:'https://www.agoda.com/'}]
+};
+var $=function(s,r){return (r||document).querySelector(s)},$$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+var wa=function(t){return 'https://wa.me/'+CFG.wa+'?text='+encodeURIComponent(t)};
+
+/* ---- Analytics hook: pushes to dataLayer (GA4/GTM ready) and keeps local counts ---- */
+function track(ev,p){
+  try{(window.dataLayer=window.dataLayer||[]).push(Object.assign({event:ev},p||{}));}catch(e){}
+  try{var o=JSON.parse(localStorage.getItem('bm_events')||'{}');o[ev]=(o[ev]||0)+1;localStorage.setItem('bm_events',JSON.stringify(o));}catch(e){}
+}
+
+/* ---- Data ---- */
+var IM={'facade-tall':[1080,1632],verandah:[1080,1620],facade:[1080,804],corridor:[1080,728],bonfire:[1080,808],bed:[1080,712],'dining-group':[1080,501],arrival:[1080,830],road:[1080,789]};
+function img(n,alt,cls){var d=IM[n];return '<img'+(cls?' class="'+cls+'"':'')+' src="images/'+n+'.webp" width="'+d[0]+'" height="'+d[1]+'" loading="lazy" decoding="async" alt="'+alt+'">';}
+
+/* Room names, capacities, beds and inclusions are placeholders to confirm with the owner. */
+var ROOMS=[
+ {id:'ochre',name:'The Ochre Room',kind:'Double room',img:'bed',alt:'Double bed with a wooden headboard and an orange geometric quilt against an ochre wall',cap:'2 guests',bed:'1 double bed',
+  blurb:'A large, quiet room with warm ochre walls and a solid wooden bed. The door opens straight onto the verandah.',
+  long:'Warm ochre walls, a solid wooden bed with a patterned quilt and plenty of floor space. Step outside and you are on the verandah with the trees in front of you. A good fit for couples and solo travellers who want a slow weekend.',
+  am:['Spacious room','Fresh bedding','Verandah door','Parking nearby'],
+  incl:['Stay for the nights booked','Verandah and lawn access','Parking at the property','Bonfire evening on request, weather permitting'],
+  gal:['bed','corridor','facade']},
+ {id:'family',name:'The Verandah Family Room',kind:'Family room',img:'corridor',alt:'Night view of the verandah row with painted red and white zigzag door frames and lit rooms',cap:'3 to 4 guests',bed:'1 double bed plus extra bedding',
+  blurb:'Space for a small family on the verandah row, with extra bedding for children.',
+  long:'One of the rooms on the long verandah row, framed by hand-painted red and white door borders. There is space for extra bedding, so parents and children can share. The lawn and swing are a short walk away.',
+  am:['Spacious room','Fresh bedding','Extra bedding','Lawn and swing nearby'],
+  incl:['Stay for the nights booked','Extra bedding on request','Verandah and lawn access','Parking at the property'],
+  gal:['corridor','bed','arrival']},
+ {id:'gathering',name:'The Gathering Room',kind:'Group stay',img:'facade',alt:'Daytime view of Bettada Mane with its tiled roof, ochre walls and lawn',cap:'5 to 6 guests',bed:'Multiple beds',
+  blurb:'For friends and relatives sharing the house, close to the verandah where everyone eats together.',
+  long:'Made for groups who want to stay together. You are steps from the verandah dining area and the bonfire circle, and there is parking for a tempo traveller. Tell us your group size and we will arrange the rooms.',
+  am:['Group friendly','Fresh bedding','Near the dining verandah','Parking for larger vehicles'],
+  incl:['Stay for the nights booked','Verandah dining area access','Parking at the property','Bonfire evening on request, weather permitting'],
+  gal:['facade','arrival','verandah']}
+];
+var EXP=[
+ {t:'Bonfire nights',img:'bonfire',alt:'Guests standing around a bonfire ringed by concrete benches in the forest at night',p:'Benches circle a fire pit among the trees. Bring the whole group and stay up late.'},
+ {t:'Verandah meals',img:'verandah',alt:'Covered verandah dining space with yellow walls and a red floor',p:'Long tables under the tiled roof, open to the trees on the far side.'},
+ {t:'Misty SH-107 drives',img:'road',alt:'Misty road on SH-107 with tall trees and the yellow Bettada Mane signboard',p:'The road to Sakleshpura runs through fog and tall trees wrapped in vines. Drive it slowly.'},
+ {t:'Lawn and swing',img:'facade-tall',alt:'Front lawn of Bettada Mane with a stone path and the house behind',p:'A trimmed lawn at the front of the house and a swing for children near the parking area.'},
+ {t:'Group gatherings',img:'arrival',alt:'Courtyard at night with a tempo traveller, cars and a children\'s swing in front of the lit house',p:'Room for a tempo traveller to pull in, and a verandah big enough for everyone.'}
+];
+var ICON={
+ clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+ bed:'<path d="M3 18V7M3 14h18v4M21 18v-4a3 3 0 0 0-3-3h-7v3"/><circle cx="7" cy="11" r="1.6"/>',
+ food:'<path d="M7 3v8M5 3v5a2 2 0 0 0 4 0V3M7 11v10M17 3c-2 2-2 6 0 8v10"/>',
+ fire:'<path d="M12 3c1 3 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-6 1-9z"/>',
+ car:'<path d="M5 16l1.5-5h11L19 16M4 16h16v3H4zM7 19v2M17 19v2"/><circle cx="8" cy="17.5" r=".6"/><circle cx="16" cy="17.5" r=".6"/>',
+ swing:'<path d="M5 3v18M19 3v18M5 3h14M9 3v11M15 3v11M7 14h4M13 14h4"/>',
+ tree:'<path d="M12 21v-6M12 15c-4 0-6-3-5-6 0-3 3-5 5-5s5 2 5 5c1 3-1 6-5 6z"/>',
+ chat:'<path d="M4 5h16v11H9l-5 4z"/>'
+};
+var AMEN=[
+ ['clock','Open 24 hours','Arrive at any hour, every day of the week.'],
+ ['bed','Large rooms','Guests mention the space in almost every review.'],
+ ['food','Verandah dining','Meals at long tables under the tiled roof.'],
+ ['fire','Bonfire circle','Benches around a fire pit in the trees.'],
+ ['car','Parking','Space for cars and a tempo traveller.'],
+ ['swing','Swing and lawn','A play area for children by the parking area.'],
+ ['tree','Forest setting','Tall trees around the property in the Western Ghats.'],
+ ['chat','WhatsApp booking','Ask about dates and rates in one message.']
+];
+var GAL=[
+ ['facade','Grounds','Front view of Bettada Mane in daylight with tiled roof, ochre walls and lawn'],
+ ['facade-tall','Grounds','Front lawn, stone path and house with a gravel foreground'],
+ ['verandah','Dining','Covered verandah dining hall with yellow walls and a red floor'],
+ ['corridor','Stay','Verandah row at night with painted red and white zigzag door frames'],
+ ['bonfire','Evenings','Guests around a bonfire in the forest at night'],
+ ['bed','Stay','Double bed with a wooden headboard and an orange geometric quilt'],
+ ['dining-group','Dining','Guests sharing a meal at a long table on the verandah'],
+ ['arrival','Evenings','Courtyard at night with vehicles, a swing and the lit house'],
+ ['road','Grounds','Misty SH-107 road with the yellow Bettada Mane signboard']
+];
+var FAQ=[
+ ['How do I book?','Send your dates and number of guests on WhatsApp or through the form on the Contact page. We reply with room options and rates, and confirm your booking in writing.'],
+ ['What are the room rates?','Rates depend on the season, the room and your group size. Message us and we will quote you directly.'],
+ ['Can I arrive late at night?','Yes. The property is open 24 hours, every day. Message us your expected arrival time.'],
+ ['Do you serve meals?','Meals are served on the verandah. Tell us your group size and food preferences and we will confirm the menu and timing.'],
+ ['Is there parking?','Yes. There is parking at the property, including space for a tempo traveller.'],
+ ['Do you take large groups?','Yes. The Gathering Room and the verandah are set up for groups. Share your headcount and we will plan the rooms.'],
+ ['Where exactly are you?','On SH-107 between Mudigere and Sakleshpura. Look for the yellow Bettada Mane signboard, or ask for Jannapura Circle.'],
+ ['Can I book on Booking.com or Airbnb?','Use the platform links on this site if you prefer them. Booking direct on WhatsApp is usually quickest.']
+];
+var POL=[
+ ['Check-in and check-out','Check-in and check-out times are confirmed when you book. The property is open 24 hours, so message us if you will arrive or leave outside the usual hours.'],
+ ['Booking and cancellation','Bookings are confirmed in writing on WhatsApp. If your plans change, tell us as early as you can. Cancellation terms are shared with your booking confirmation.'],
+ ['Groups and extra guests','Please give us your final headcount when you enquire. Extra guests and extra bedding are arranged in advance.'],
+ ['Bonfire and evenings','Bonfire evenings are arranged on request and depend on the weather. Please keep noise considerate late at night.'],
+ ['Rates','Rates depend on the season, the room and the group size. We quote directly on WhatsApp.']
+];
+var TITLES={home:'Bettada Mane Home Stay | Mudigere, Western Ghats',about:'About | Bettada Mane Home Stay',stay:'Rooms and Stay | Bettada Mane Home Stay',room:'Room | Bettada Mane Home Stay',experiences:'Experiences | Bettada Mane Home Stay',gallery:'Gallery | Bettada Mane Home Stay',dining:'Dining | Bettada Mane Home Stay',location:'Location and Directions | Bettada Mane Home Stay',reviews:'Guest Reviews | Bettada Mane Home Stay',faq:'FAQ | Bettada Mane Home Stay',contact:'Contact and Enquiry | Bettada Mane Home Stay',policies:'Policies | Bettada Mane Home Stay'};
+
+/* ---- Renderers ---- */
+function chips(a){return '<ul class="chips">'+a.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul>';}
+function roomCard(r){
+  return '<article class="room">'+img(r.img,r.alt,'gable')+'<div class="room-body"><p class="eyebrow">'+r.kind+'</p><h3>'+r.name+'</h3><p>'+r.blurb+'</p>'+
+  '<div class="meta"><span>'+r.cap+'</span><span>'+r.bed+'</span></div>'+chips(r.am)+'<p class="price">Rates on request</p>'+
+  '<div class="btns"><a class="btn btn-ochre sm" href="#room-'+r.id+'">View room</a><a class="btn sm" href="#contact" data-room="'+r.id+'" data-track="cta_room_enquire">Enquire</a></div></div></article>';
+}
+function expTile(e){return '<div class="t">'+img(e.img,e.alt)+'<div><h3>'+e.t+'</h3><p>'+e.p+'</p></div></div>';}
+function routeSVG(){
+  return '<svg class="route" viewBox="0 0 520 260" role="img" aria-label="Schematic of SH-107 between Mudigere and Sakleshpura with Bettada Mane marked and Jannapura Circle as a landmark">'+
+  '<path class="road" d="M20 180 C140 120 260 200 500 90"/>'+
+  '<text x="20" y="206">Mudigere</text><text x="500" y="72" text-anchor="end">Sakleshpura</text><text class="mute" x="93" y="140">SH-107</text>'+
+  '<circle class="pulse" cx="215" cy="154" r="9"/><circle class="pin" cx="215" cy="154" r="9"/>'+
+  '<text x="215" y="188" text-anchor="middle">Bettada Mane</text>'+
+  '<path class="dash" d="M215 52V138"/><text class="mute" x="215" y="40" text-anchor="middle">Landmark: Jannapura Circle</text></svg>'+
+  '<p class="caption">Schematic only, not to scale.</p>';
+}
+function platformsHTML(){return '<span class="lab">Also book via</span>'+CFG.platforms.map(function(p){return '<a href="'+p.u+'" target="_blank" rel="noopener" data-track="platform_click" data-platform="'+p.n+'">'+p.n+'</a>';}).join('');}
+
+function renderStatic(){
+  $('#home-rooms').innerHTML=ROOMS.map(roomCard).join('');
+  $('#stay-rooms').innerHTML=ROOMS.map(roomCard).join('');
+  $('#home-exp').innerHTML=EXP.map(expTile).join('');
+  $('#about-exp').innerHTML=EXP.slice(0,3).map(expTile).join('');
+  $('#amen').innerHTML=AMEN.map(function(a){return '<li><svg viewBox="0 0 24 24" aria-hidden="true">'+ICON[a[0]]+'</svg><h3>'+a[1]+'</h3><p>'+a[2]+'</p></li>';}).join('');
+  var M=[['facade','a'],['bonfire',''],['verandah','c'],['corridor',''],['bed',''],['arrival','f'],['road','']];
+  $('#mosaic').innerHTML=M.map(function(m){var g=GAL.filter(function(x){return x[0]===m[0]})[0];return '<a class="'+m[1]+'" href="#gallery">'+img(m[0],g[2])+'</a>';}).join('');
+  $('#exp-list').innerHTML=EXP.map(function(e){return '<div class="chapter"><div class="chapter-img">'+img(e.img,e.alt)+'</div><div><h2>'+e.t+'</h2><p>'+e.p+'</p><div class="btns" style="margin-top:20px"><a class="btn sm" data-wa="Hi Bettada Mane Home Stay, I would like to plan: '+e.t+'. Dates: ___  Guests: ___" data-track="whatsapp_click" data-where="experience" href="#contact" target="_blank" rel="noopener">Plan this</a></div></div></div>';}).join('');
+  $('#faq').innerHTML=FAQ.map(function(f){return '<details><summary>'+f[0]+'</summary><p>'+f[1]+'</p></details>';}).join('');
+  $('#policies').innerHTML=POL.map(function(p,i){return '<h2'+(i===0?' style="margin-top:0"':'')+'>'+p[0]+'</h2><p>'+p[1]+'</p>';}).join('')+'<div class="btns" style="margin-top:28px"><a class="btn btn-ochre" href="#contact">Enquire now</a></div>';
+  $$('[data-route]').forEach(function(n){n.innerHTML=routeSVG();});
+  $$('[data-platforms]').forEach(function(n){n.innerHTML=platformsHTML();});
+  $('#phones').innerHTML=CFG.phones.map(function(p,i){return '<li><b>'+p.n+'</b><small>'+p.note+'</small><a class="mini" href="tel:'+p.tel+'" data-track="phone_click">Call</a><button class="mini" type="button" data-copy="'+p.n+'">Copy</button></li>';}).join('');
+  $('#f-room').innerHTML='<option value="">Not sure yet</option>'+ROOMS.map(function(r){return '<option value="'+r.id+'">'+r.name+'</option>';}).join('');
+  $$('[data-wa]').forEach(function(a){a.href=wa(a.getAttribute('data-wa'));});
+  $$('[data-maps]').forEach(function(a){a.href=CFG.maps;});
+}
+
+function renderRoom(r){
+  $('#room-head').innerHTML='<a class="crumb" href="#stay">&larr; All rooms</a><p class="eyebrow" style="margin-top:22px">'+r.kind+'</p><h1>'+r.name+'</h1><p class="lede">'+r.blurb+'</p>';
+  $('#room-body').innerHTML='<div class="room-gal">'+r.gal.map(function(g){var x=GAL.filter(function(y){return y[0]===g})[0];return img(g,x[2]);}).join('')+'</div>'+
+  '<div class="room-cols"><div><div class="prose"><p>'+r.long+'</p></div>'+
+  '<h2 style="font:500 28px/1.1 var(--f-disp);margin:34px 0 14px">Amenities</h2>'+chips(r.am)+
+  '<h2 style="font:500 28px/1.1 var(--f-disp);margin:34px 0 14px">What is included</h2><ul class="ticks">'+r.incl.map(function(i){return '<li>'+i+'</li>';}).join('')+'</ul></div>'+
+  '<aside class="side"><h2>Book this room</h2><dl class="facts" style="margin:0"><div><dt>Capacity</dt><dd>'+r.cap+'</dd></div><div><dt>Bed</dt><dd>'+r.bed+'</dd></div><div><dt>Price</dt><dd>Rates on request</dd></div></dl>'+
+  '<a class="btn btn-ochre" id="room-wa" href="#contact" target="_blank" rel="noopener" data-track="whatsapp_click" data-where="room_'+r.id+'">Ask about this room</a>'+
+  '<a class="btn" href="#contact" data-room="'+r.id+'" data-track="cta_room_enquire">Open enquiry form</a></aside></div>';
+  $('#room-wa').href=wa('Hi Bettada Mane Home Stay, I am interested in '+r.name+'. Dates: ___  Guests: ___');
+}
+
+/* ---- Gallery + lightbox ---- */
+var cats=['All'].concat(GAL.map(function(g){return g[1]}).filter(function(v,i,a){return a.indexOf(v)===i}));
+var curCat='All',lbList=[],lbI=0;
+function renderGallery(){
+  $('#filters').innerHTML=cats.map(function(c){return '<button type="button" class="chip" data-cat="'+c+'" aria-pressed="'+(c===curCat)+'">'+c+'</button>';}).join('');
+  var items=GAL.filter(function(g){return curCat==='All'||g[1]===curCat});
+  lbList=items;
+  $('#gal').innerHTML=items.map(function(g,i){return '<button type="button" class="gi" data-i="'+i+'" aria-label="Open photo: '+g[2]+'">'+img(g[0],g[2])+'</button>';}).join('');
+}
+function lbShow(i){
+  lbI=(i+lbList.length)%lbList.length;var g=lbList[lbI];
+  var im=$('#lb-img');im.src='images/'+g[0]+'.webp';im.alt=g[2];$('#lb-cap').textContent=g[2];
+}
+function lbOpen(i){$('#lb').hidden=false;lbShow(i);$('#lb-x').focus();}
+function lbClose(){$('#lb').hidden=true;}
+
+/* ---- Router ---- */
+var pages=$$('.page');
+function route(){
+  var h=(location.hash||'#home').slice(1)||'home',key=h,room=null;
+  if(h.indexOf('room-')===0){key='room';room=ROOMS.filter(function(r){return r.id===h.slice(5)})[0];if(!room){location.hash='#stay';return;}}
+  var pg=pages.filter(function(p){return p.getAttribute('data-page')===key})[0];
+  if(!pg){pg=pages[0];key='home';}
+  if(room){renderRoom(room);}
+  pages.forEach(function(p){p.hidden=(p!==pg);});
+  $$('.nav a').forEach(function(a){if(a.getAttribute('href')==='#'+key)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+  document.title=room?room.name+' | Bettada Mane Home Stay':(TITLES[key]||TITLES.home);
+  closeMenu();window.scrollTo(0,0);track('page_view',{page:h});
+}
+function closeMenu(){$('#menu').hidden=true;$('#burger').setAttribute('aria-expanded','false');$('#burger').textContent='Menu';}
+
+/* ---- Events ---- */
+document.addEventListener('click',function(e){
+  var t=e.target.closest('[data-track]');if(t){track(t.getAttribute('data-track'),{where:t.getAttribute('data-where')||t.getAttribute('data-platform')||'',label:(t.textContent||'').trim().slice(0,40)});}
+  var rm=e.target.closest('[data-room]');if(rm){window.__room=rm.getAttribute('data-room');}
+  var cp=e.target.closest('[data-copy]');if(cp){copy(cp.getAttribute('data-copy'),cp);}
+  var ct=e.target.closest('[data-cat]');if(ct){curCat=ct.getAttribute('data-cat');renderGallery();}
+  var gi=e.target.closest('.gi');if(gi){lbOpen(+gi.getAttribute('data-i'));}
+  if(!e.target.closest('#fab')&&!$('#fab-panel').hidden){fabToggle(false);}
+});
+function copy(text,btn){
+  var done=function(){var o=btn.textContent;btn.textContent='Copied';setTimeout(function(){btn.textContent=o;},1400);};
+  try{navigator.clipboard.writeText(text).then(done,function(){sel(text,btn)});}catch(err){sel(text,btn);}
+}
+function sel(text,btn){var r=document.createRange();var n=btn.previousElementSibling||btn;try{r.selectNodeContents(n);var s=getSelection();s.removeAllRanges();s.addRange(r);}catch(e){}}
+$('#burger').addEventListener('click',function(){var m=$('#menu');m.hidden=!m.hidden;this.setAttribute('aria-expanded',String(!m.hidden));this.textContent=m.hidden?'Menu':'Close';});
+function fabToggle(v){$('#fab-panel').hidden=!v;$('#fab-btn').setAttribute('aria-expanded',String(v));}
+$('#fab-btn').addEventListener('click',function(e){e.stopPropagation();fabToggle($('#fab-panel').hidden);});
+$('#lb-x').addEventListener('click',lbClose);$('#lb-p').addEventListener('click',function(){lbShow(lbI-1)});$('#lb-n').addEventListener('click',function(){lbShow(lbI+1)});
+$('#lb').addEventListener('click',function(e){if(e.target===this)lbClose();});
+document.addEventListener('keydown',function(e){
+  if(!$('#lb').hidden){if(e.key==='Escape')lbClose();if(e.key==='ArrowLeft')lbShow(lbI-1);if(e.key==='ArrowRight')lbShow(lbI+1);}
+  else if(e.key==='Escape'){closeMenu();fabToggle(false);}
+});
+
+/* ---- Enquiry form ---- */
+var LAST='';
+$('#enq').addEventListener('submit',function(e){
+  e.preventDefault();
+  var n=$('#f-name').value.trim(),g=$('#f-guests').value,ph=$('#f-phone').value.trim(),ci=$('#f-in').value,co=$('#f-out').value,rv=$('#f-room').value,msg=$('#f-msg').value.trim(),err=$('#enq-err');
+  if(!n){err.textContent='Please enter your name.';$('#f-name').focus();return;}
+  if(!g||+g<1){err.textContent='Please enter the number of guests.';$('#f-guests').focus();return;}
+  if(ci&&co&&co<=ci){err.textContent='Check-out must be after check-in.';$('#f-out').focus();return;}
+  err.textContent='';
+  var room=ROOMS.filter(function(r){return r.id===rv})[0];
+  LAST=['Hi Bettada Mane Home Stay, I would like to enquire.','Name: '+n,ph?'Phone: '+ph:'','Check-in: '+(ci||'not fixed yet'),'Check-out: '+(co||'not fixed yet'),'Guests: '+g,'Room: '+(room?room.name:'Not sure yet'),msg?'Message: '+msg:''].filter(Boolean).join('\n');
+  $('#enq-text').textContent=LAST;$('#enq-wa').href=wa(LAST);$('#enq-done').hidden=false;
+  track('enquiry_submit',{room:rv||'none',guests:g});
+  $('#enq-done').scrollIntoView({block:'nearest'});
+});
+$('#enq-copy').addEventListener('click',function(){copy(LAST,this);});
+
+/* ---- Hero pointer light (fine pointers only) ---- */
+var hero=$('.hero');
+if(hero&&window.matchMedia&&matchMedia('(pointer:fine)').matches&&!matchMedia('(prefers-reduced-motion:reduce)').matches){
+  var raf=0,px=0,py=0,mx=72,my=28;
+  hero.addEventListener('pointermove',function(e){
+    var r=hero.getBoundingClientRect();px=((e.clientX-r.left)/r.width-.5)*2;py=((e.clientY-r.top)/r.height-.5)*2;mx=(e.clientX-r.left)/r.width*100;my=(e.clientY-r.top)/r.height*100;
+    if(!raf)raf=requestAnimationFrame(function(){raf=0;hero.style.setProperty('--mx',mx+'%');hero.style.setProperty('--my',my+'%');hero.style.setProperty('--px',px.toFixed(3));hero.style.setProperty('--py',py.toFixed(3));});
+  });
+}
+
+renderStatic();renderGallery();route();
+window.addEventListener('hashchange',route);
+})();
+</script>
+
+</body></html>
